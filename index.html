@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="ন‌ওগাঁ ট্যাক্সেস বার এসোসিয়েশন - পেশাদারিত্ব, ঐক্য ও ন্যায়বিচারের প্রতীক">
+    <meta name="keywords" content="নাওগাঁ, ট্যাক্স, বার, এসোসিয়েশন, আইনজীবী, আইনি পরিষেবা">
+    <meta name="author" content="Naogaon Taxes Bar Association">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Bengali">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ন‌ওগাঁ ট্যাক্সেস বার এসোসিয়েশন">
+    <meta property="og:description" content="পেশাদারিত্ব, ঐক্য ও ন্যায়বিচারের প্রতীক">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    <meta property="og:site_name" content="Naogaon Taxes Bar Association">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ন‌ওগাঁ ট্যাক্সেস বার এসোসিয়েশন">
+    <meta name="twitter:description" content="পেশাদারিত্ম, ঐক্য ও ন্যায়বিচারের প্রতীক">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%23164E3E' width='100' height='100'/><text x='50' y='70' font-size='60' font-weight='bold' text-anchor='middle' fill='%23D4AF37'>⚖</text></svg>" type="image/svg+xml">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <title>ন‌ওগাঁ ট্যাক্সেস বার এসোসিয়েশন | নাগাঁ</title>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loader-container">
+            <div class="loader"></div>
+            <p>লোড হচ্ছে...</p>
+        </div>
+    </div>
+
+    <!-- Floating Particles Background -->
+    <div id="particleContainer" class="particle-container"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="brand-icon">⚖</span>
+                <span class="brand-text">
+                    <span class="brand-primary">NTBA</span>
+                    <span class="brand-secondary">নাওগাঁ</span>
+                </span>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">হোম</a></li>
+                <li><a href="#about" class="nav-link">পরিচয়</a></li>
+                <li><a href="#executive" class="nav-link">নেতৃত্ব</a></li>
+                <li><a href="#members" class="nav-link">সদস্যবৃন্দ</a></li>
+                <li><a href="#notices" class="nav-link">নোটিস বোর্ড</a></li>
+                <li><a href="#events" class="nav-link">ইভেন্ট</a></li>
+                <li><a href="#gallery" class="nav-link">গ্যালারি</a></li>
+                <li><a href="#contact" class="nav-link">যোগাযোগ</a></li>
+                <li>
+                    <button id="darkModeToggle" class="dark-mode-btn" title="ডার্ক মোড টগল">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" id="heroTitle">
+                    ন‌ওগাঁ ট্যাক্সেস বার এসোসিয়েশন
+                </h1>
+                <p class="hero-subtitle">পেশাদারিত্ম, ঐক্য ও ন্যায়বিচারের প্রতীক</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">আমাদের সম্পর্কে</a>
+                    <a href="#contact" class="btn btn-secondary">যোগাযোগ করুন</a>
+                </div>
+            </div>
+            <div class="hero-icon">
+                <div class="icon-circle">
+                    <i class="fas fa-balance-scale"></i>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>নিচে যান</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">আমাদের পরিচয়</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>ন‌ওগাঁ ট্যাক্সেস বার এসোসিয়েশন</h3>
+                    <p>
+                        ন‌ওগাঁ ট্যাক্সেস বার এসোসিয়েশন একটি স্বাধীন পেশাদার সংস্থা যা ট্যাক্স আইন এবং আর্থিক নিয়মকানুন বিষয়ে বিশেষজ্ঞতা প্রদান করে। আমরা বাংলাদেশের ট্যাক্স আইন পেশাদারদের একটি প্ল্যাটফর্ম প্রদান করি।
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-target"></i>
+                            <h4>আমাদের লক্ষ্য</h4>
+                            <p>সততা এবং স্বচ্ছতার সাথে প্রতিটি ক্লায়েন্টকে সর্বোত্তম সেবা প্রদান করা।</p>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-handshake"></i>
+                            <h4>আমাদের মূল্যবোধ</h4>
+                            <p>পেশাদারিত্ম, সততা এবং ন্যায়বিচারের নীতিতে বিশ্বাসী।</p>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-book"></i>
+                            <h4>আমাদের দায়িত্ব</h4>
+                            <p>সমাজে আইনি সচেতনতা বৃদ্ধি এবং ন্যায় প্রতিষ্ঠায় ভূমিকা রাখা।</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 400'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23164E3E;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%230F3929;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23grad)' width='400' height='400'/%3E%3Ctext x='200' y='150' font-size='100' text-anchor='middle' fill='%23D4AF37' font-weight='bold'%3E⚖%3C/text%3E%3Ctext x='200' y='280' font-size='20' text-anchor='middle' fill='%23FFFFFF' font-family='Arial'%3E100+ বছরের সেবা%3C/text%3E%3C/svg%3E" alt="সংস্থা">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <h2 class="section-title">আমাদের অর্জন</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="850">০</div>
+                    <p class="stat-label">সক্রিয় সদস্য</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="1250">০</div>
+                    <p class="stat-label">নিবন্ধিত আইনজীবী</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="35">০</div>
+                    <p class="stat-label">বছরের অভিজ্ঞতা</p>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="5000">০</div>
+                    <p class="stat-label">মামলা নিষ্পত্তি</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Committee Section -->
+    <section id="executive" class="executive">
+        <div class="container">
+            <h2 class="section-title">নির্বাহী সমিতি</h2>
+            <div class="committee-grid">
+                <!-- Committee Members -->
+                <div class="committee-card">
+                    <div class="member-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <h3>মোহাম্মদ রফিকুল ইসলাম</h3>
+                    <p class="position">সভাপতি</p>
+                    <p class="credentials">ব্যারিস্টার, এলএলএম</p>
+                    <div class="contact-info">
+                        <a href="tel:+8801713123456"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:rafikul@ntba.org"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="committee-card">
+                    <div class="member-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <h3>ফারহানা বেগম</h3>
+                    <p class="position">উপসভাপতি</p>
+                    <p class="credentials">সিনিয়র আইনজীবী, এমপিএল</p>
+                    <div class="contact-info">
+                        <a href="tel:+8801812234567"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:farhana@ntba.org"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="committee-card">
+                    <div class="member-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <h3>মাহমুদ হাসান খান</h3>
+                    <p class="position">সাধারণ সম্পাদক</p>
+                    <p class="credentials">ট্যাক্স স্পেশালিস্ট, এমএ</p>
+                    <div class="contact-info">
+                        <a href="tel:+8801913567890"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:mahmud@ntba.org"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="committee-card">
+                    <div class="member-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <h3>সালমা আক্তার চৌধুরী</h3>
+                    <p class="position">সম্পাদক</p>
+                    <p class="credentials">আইনজীবী, এমবিএ</p>
+                    <div class="contact-info">
+                        <a href="tel:+8801614456789"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:salma@ntba.org"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="committee-card">
+                    <div class="member-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <h3>আবদুস সালাম</h3>
+                    <p class="position">কোষাধ্যক্ষ</p>
+                    <p class="credentials">ফাইন্যান্সিয়াল এক্সপার্ট, সিএ</p>
+                    <div class="contact-info">
+                        <a href="tel:+8801715123789"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:abdus@ntba.org"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="committee-card">
+                    <div class="member-image">
+                        <div class="image-placeholder-small">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <h3>জহিরুন নাহার</h3>
+                    <p class="position">সদস্য (আইন)</p>
+                    <p class="credentials">সিনিয়র ব্যারিস্টার</p>
+                    <div class="contact-info">
+                        <a href="tel:+8801817890123"><i class="fas fa-phone"></i></a>
+                        <a href="mailto:zahirun@ntba.org"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members" class="members">
+        <div class="container">
+            <h2 class="section-title">সদস্য খোঁজা</h2>
+            <div class="member-search">
+                <div class="search-box">
+                    <input type="text" id="memberSearch" placeholder="সদস্যের নাম দিয়ে খুঁজুন...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">সকল</button>
+                    <button class="filter-btn" data-filter="senior">সিনিয়র</button>
+                    <button class="filter-btn" data-filter="junior">জুনিয়র</button>
+                    <button class="filter-btn" data-filter="associate">সহযোগী</button>
+                </div>
+            </div>
+
+            <div class="member-list" id="memberList">
+                <!-- Members will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Notices Section -->
+    <section id="notices" class="notices">
+        <div class="container">
+            <h2 class="section-title">নোটিস বোর্ড</h2>
+            <div class="notices-container">
+                <div class="notice-item">
+                    <div class="notice-header">
+                        <span class="notice-date">২৫ মে ২০২৪</span>
+                        <span class="notice-badge">জরুরি</span>
+                    </div>
+                    <h4>বার্ষিক সদস্য পরিষদ মিটিং আয়োজিত হবে</h4>
+                    <p>আমাদের সংস্থার বার্ষিক সদস্য সম্মেলন আগামী মাসে অনুষ্ঠিত হতে যাচ্ছে। সকল সদস্যদের অংশগ্রহণের জন্য অনুরোধ করা হচ্ছে।</p>
+                    <a href="#" class="notice-download"><i class="fas fa-file-pdf"></i> নোটিস ডাউনলোড করুন</a>
+                </div>
+
+                <div class="notice-item">
+                    <div class="notice-header">
+                        <span class="notice-date">২০ মে ২০২৪</span>
+                        <span class="notice-badge">সাধারণ</span>
+                    </div>
+                    <h4>নতুন ট্যাক্স গাইডলাইন প্রকাশিত হয়েছে</h4>
+                    <p>জাতীয় রাজস্ব বোর্ড কর্তৃক প্রকাশিত নতুন ট্যাক্স গাইডলাইন এখন আমাদের ওয়েবসাইটে উপলব্ধ। প্রতিটি সদস্যের জন্য এটি পড়া গুরুত্বপূর্ণ।</p>
+                    <a href="#" class="notice-download"><i class="fas fa-file-pdf"></i> নোটিস ডাউনলোড করুন</a>
+                </div>
+
+                <div class="notice-item">
+                    <div class="notice-header">
+                        <span class="notice-date">১৮ মে ২০২৪</span>
+                        <span class="notice-badge">ওয়ার্কশপ</span>
+                    </div>
+                    <h4>ট্যাক্স কমপ্লায়েন্স ওয়ার্কশপ আয়োজন</h4>
+                    <p>আন্তর্জাতিক ট্যাক্স কমপ্লায়েন্স নিয়ে একটি বিশেষ ওয়ার্কশপ আয়োজন করা হচ্ছে। নিবন্ধনের জন্য আজই যোগাযোগ করুন।</p>
+                    <a href="#" class="notice-download"><i class="fas fa-file-pdf"></i> নোটিস ডাউনলোড করুন</a>
+                </div>
+
+                <div class="notice-item">
+                    <div class="notice-header">
+                        <span class="notice-date">১৫ মে ২০২৪</span>
+                        <span class="notice-badge">তথ্য</span>
+                    </div>
+                    <h4>সদস্যপদ ফি নবীকরণের সময়সীমা</h4>
+                    <p>সদস্যপদ ফি নবীকরণের চূড়ান্ত সময়সীমা ৩০ জুন ২০২৪। তারিখের পরে কোনো সদস্যপদ গ্রহণ করা হবে না।</p>
+                    <a href="#" class="notice-download"><i class="fas fa-file-pdf"></i> নোটিস ডাউনলোড করুন</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events & News Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <h2 class="section-title">ইভেন্ট ও সংবাদ</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="image-placeholder-event">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <span class="event-date">
+                            <span class="day">১২</span>
+                            <span class="month">জুন</span>
+                        </span>
+                    </div>
+                    <div class="event-content">
+                        <h3>আন্তর্জাতিক ট্যাক্স সেমিনার</h3>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> ন‌ওগাঁ কনভেনশন সেন্টার</p>
+                        <p>বিশ্বমানের ট্যাক্স বিশেষজ্ঞদের সাথে ট্যাক্স নীতি এবং আন্তর্জাতিক মানদণ্ড সম্পর্কে আলোচনা করুন।</p>
+                        <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="image-placeholder-event">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <span class="event-date">
+                            <span class="day">২০</span>
+                            <span class="month">জুন</span>
+                        </span>
+                    </div>
+                    <div class="event-content">
+                        <h3>সদস্য নেটওয়ার্কিং ইভেন্ট</h3>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> গ্র্যান্ড হোটেল ন‌ওগাঁ</p>
+                        <p>পেশাদার নেটওয়ার্কিং এবং সহযোগিতার জন্য সকল সদস্যদের জন্য একটি বিশেষ সান্ধ্য অনুষ্ঠান।</p>
+                        <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="image-placeholder-event">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <span class="event-date">
+                            <span class="day">২৮</span>
+                            <span class="month">জুন</span>
+                        </span>
+                    </div>
+                    <div class="event-content">
+                        <h3>নতুন ট্যাক্স আইন প্রশিক্ষণ</h3>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> অনলাইন প্ল্যাটফর্ম</p>
+                        <p>নতুন ট্যাক্স আইন এবং নিয়মকানুনের উপর ব্যাপক প্রশিক্ষণ কর্মসূচি। সার্টিফিকেট প্রদান করা হবে।</p>
+                        <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="image-placeholder-event">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <span class="event-date">
+                            <span class="day">০৫</span>
+                            <span class="month">জুলা</span>
+                        </span>
+                    </div>
+                    <div class="event-content">
+                        <h3>বার্ষিক পুরস্কার অনুষ্ঠান</h3>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> প্রেসিডেন্সিয়াল হল</p>
+                        <p>আমাদের সবচেয়ে গুণী এবং অবদানকারী সদস্যদের স্বীকৃতি প্রদানের জন্য বিশেষ অনুষ্ঠান।</p>
+                        <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="image-placeholder-event">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <span class="event-date">
+                            <span class="day">১২</span>
+                            <span class="month">জুলা</span>
+                        </span>
+                    </div>
+                    <div class="event-content">
+                        <h3>বিচারক সাক্ষাৎ কর্মসূচি</h3>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> ন‌ওগাঁ জেলা আদালত</p>
+                        <p>সিনিয়র বিচারকদের সাথে মুখোমুখি আলোচনা এবং বিচার ব্যবস্থা উন্নয়নে মতামত বিনিময়।</p>
+                        <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-image">
+                        <div class="image-placeholder-event">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <span class="event-date">
+                            <span class="day">২০</span>
+                            <span class="month">জুলা</span>
+                        </span>
+                    </div>
+                    <div class="event-content">
+                        <h3>কর্পোরেট সামাজিক দায়বদ্ধতা</h3>
+                        <p class="event-location"><i class="fas fa-map-marker-alt"></i> সামাজিক কেন্দ্র</p>
+                        <p>সমাজের উন্নয়নে অবদান রাখার জন্য আমাদের সংস্থার বিশেষ কর্মসূচি।</p>
+                        <a href="#" class="read-more">আরও পড়ুন <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">সদস্যদের মতামত</h2>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "ন‌ওগাঁ ট্যাক্সেস বার এসোসিয়েশন আমার পেশাগত উন্নয়নে অসাধারণ ভূমিকা রেখেছে। তাদের প্রশিক্ষণ এবং নেটওয়ার্কিং সুযোগ অমূল্য।"
+                    </p>
+                    <div class="testimonial-author">
+                        <h4>আনিসুর রহমান</h4>
+                        <p>সিনিয়র ট্যাক্স আইনজীবী</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "এই সংস্থার মাধ্যমে আমি বিভিন্ন আইনি বিশেষজ্ঞদের সাথে সংযুক্ত হয়েছি এবং আমার দক্ষতা বৃদ্ধি করেছি। সত্যিই প্রতিশ্রুতিশীল সংস্থা।"
+                    </p>
+                    <div class="testimonial-author">
+                        <h4>সায়মা পারভীন</h4>
+                        <p>ট্যাক্স পরামর্শক</p>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "পেশাদার নেতৃত্ব এবং সামাজিক দায়বদ্ধতার উপর এই সংস্থার অঙ্গীকার অতুলনীয়। আমি গর্বিত যে এর অংশ।"
+                    </p>
+                    <div class="testimonial-author">
+                        <h4>করিম আহমেদ</h4>
+                        <p>জুনিয়র আইনজীবী</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button id="prevTestimonial" class="control-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="nextTestimonial" class="control-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">গ্যালারি</h2>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be populated by JavaScript -->
+            </div>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div id="lightboxModal" class="lightbox-modal">
+            <div class="lightbox-content">
+                <button class="lightbox-close" id="lightboxClose">&times;</button>
+                <img id="lightboxImage" src="" alt="">
+                <div class="lightbox-caption" id="lightboxCaption"></div>
+                <button class="lightbox-nav lightbox-prev" id="lightboxPrev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="lightbox-nav lightbox-next" id="lightboxNext">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">যোগাযোগ করুন</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>ঠিকানা</h4>
+                        <p>
+                            বার লাইব্রেরি ভবন<br>
+                            আইনকোর্ট রোড<br>
+                            ন‌ওগাঁ, বাংলাদেশ
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h4>ফোন</h4>
+                        <p>
+                            <a href="tel:+88-761-2345678">+৮৮-৭৬১-২৩৪৫৬৭৮</a><br>
+                            <a href="tel:+8801713567890">+৮৮০১৭১৩৫৬৭৮৯০</a>
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h4>ইমেইল</h4>
+                        <p>
+                            <a href="mailto:info@ntba.org">info@ntba.org</a><br>
+                            <a href="mailto:contact@ntba.org">contact@ntba.org</a>
+                        </p>
+                    </div>
+
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h4>খোলার সময়</h4>
+                        <p>
+                            সোমবার - শুক্রবার: ৯:০০ - ১৭:০০<br>
+                            শনিবার: ১০:০০ - ১৬:০০<br>
+                            রবিবার: বন্ধ
+                        </p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="fullName" placeholder="আপনার নাম" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="আপনার ইমেইল" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="আপনার ফোন নম্বর">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="বিষয়" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="আপনার বার্তা" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">বার্তা পাঠান</button>
+                </form>
+            </div>
+
+            <!-- Map Placeholder -->
+            <div class="map-container">
+                <iframe src="data:text/html,%3Chtml%3E%3Cbody style='margin:0;padding:0;'%3E%3Cdiv style='width:100%25;height:100%25;background:linear-gradient(135deg,%23164E3E,0F3929);display:flex;align-items:center;justify-content:center;'%3E%3Cdiv style='text-align:center;color:white;'%3E%3Ch2%3Eগুগল ম্যাপ%3C/h2%3E%3Ep%3Eওগাঁ, বাংলাদেশ%3C/p%3E%3Ci style='font-size:48px'%3E🗺️%3C/i%3E%3C/div%3E%3C/body%3E%3C/html%3E" width="100%" height="400" frameborder="0" style="border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.2);"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ন‌ওগাঁ ট্যাক্সেস বার এসোসিয়েশন</h4>
+                    <p>পেশাদারিত্ম, ঐক্য ও ন্যায়বিচারের প্রতীক</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>দ্রুত লিঙ্ক</h4>
+                    <ul>
+                        <li><a href="#home">হোম</a></li>
+                        <li><a href="#about">পরিচয়</a></li>
+                        <li><a href="#members">সদস্যবৃন্দ</a></li>
+                        <li><a href="#contact">যোগাযোগ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>সোশ্যাল মিডিয়া</h4>
+                    <div class="social-links">
+                        <a href="#" title="ফেসবুক"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="টুইটার"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="লিংকডইন"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" title="ইউটিউব"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>নিউজলেটার</h4>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="আপনার ইমেইল" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; ২০২৪ ন‌ওগাঁ ট্যাক্সেস বার এসোসিয়েশন। সর্বাধিকার সংরক্ষিত।</p>
+                <p>বিকশিত <i class="fas fa-heart"></i> নাওগাঁ ট্যাক্সেস বার এসোসিয়েশনের জন্য</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
